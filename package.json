@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
-    "test:headed": "cucumber-js --world-parameters '{\"headed\":true}'"
+    "test": "npx cucumber-js",
+    "test:report": "npx cucumber-js --format @cucumber/html-formatter --out reports/cucumber-report.html",
+    "report:open": "start reports/cucumber-report.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vicente Valenzuela",
   "license": "ISC",
-  "description": "",
+  "description": "Proyecto de automatización de pruebas E2E con Playwright y Cucumber en JavaScript.",
   "devDependencies": {
-    "@cucumber/cucumber": "^12.2.0",
-    "@playwright/test": "^1.55.0",
-    "playwright": "^1.55.0"
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.56.0"
   }
 }

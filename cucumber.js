@@ -1,3 +1,8 @@
 module.exports = {
-  default: `--require ./features/support/**/*.js --require ./features/step_definitions/**/*.js --format progress`
+  default: `
+    --require ./features/step_definitions/**/*.js
+    --require ./features/support/**/*.js
+    --publish-quiet
+    --format json:allure-results/cucumber-report.json
+  `
 };
