@@ -9,12 +9,38 @@ El objetivo es validar funcionalidades críticas de una aplicación web mediante
 
 TAE1PlaywrightCucumber_AskOmDch/
 │
-├── features/ # Archivos .feature con escenarios en Gherkin
-├── steps/ # Definición de pasos (Step Definitions)
-├── pages/ # Implementación del patrón Page Object Model (POM)
-├── reports/ # Carpeta donde se generan los reportes HTML
-├── package.json # Configuración del proyecto y scripts de ejecución
-└── README.md # Documentación del proyecto
+├── features/ # Escenarios en Gherkin y definición de pasos
+│ ├── step_definitions/ # Step Definitions (implementaciones de los pasos)
+│ │ ├── busquedaProducto.steps.js
+│ │ └── login.steps.js
+│ │
+│ ├── support/ # Hooks y configuraciones de Cucumber
+│ │ └── hooks.js
+│ │
+│ ├── busquedaProducto.feature # Escenario de búsqueda de producto
+│ └── login.feature # Escenario de login
+│
+├── pages/ # Clases del patrón Page Object Model (POM)
+│ ├── LoginPage.js
+│ └── StorePage.js
+│
+├── reports/ # Reportes generados después de ejecutar las pruebas
+│ ├── cucumber-report.html
+│ └── cucumber-report.json
+│
+├── screenshots/ # Evidencias visuales de las pruebas
+│ └── Password_invalido.png
+│
+├── test-results/ # Resultados técnicos de ejecución
+│ └── .last-run.json
+│
+├── .gitignore # Archivos y carpetas ignorados por Git
+├── cucumber.js # Configuración principal de Cucumber
+├── package.json # Dependencias y scripts del proyecto
+├── package-lock.json
+├── playwright.config.js # Configuración de Playwright
+└── report.js # Script auxiliar para generación de reportes
+
 
 
 ---
