@@ -1,0 +1,787 @@
+[
+  {
+    "description": "  Como usuario quiero poder buscar productos en la tienda para validar los resultados según lo ingresado.",
+    "elements": [
+      {
+        "description": "",
+        "id": "búsqueda-de-productos-en-la-tienda-askomdch;buscar-números-\"1212\"",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Buscar números \"1212\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4320533182
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que el usuario ha iniciado sesión con username \"Vicente\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3939809930
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "está en la página \"Store\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1116914450
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "ingresa \"1212\" en la caja de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033701135
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "hace click en el botón de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158439
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "debería ver el mensaje \"No products were found matching your selection.\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53151723
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300657400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "búsqueda-de-productos-en-la-tienda-askomdch;buscar-caracteres-especiales-\"$$%%&&\"",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Buscar caracteres especiales \"$$%%&&\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1315043421
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que el usuario ha iniciado sesión con username \"Vicente\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3465698020
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "está en la página \"Store\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1808737563
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "ingresa \"$$%%&&\" en la caja de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1043153399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "hace click en el botón de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99160
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "debería ver el mensaje \"No products were found matching your selection.\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52745732
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 315291783
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "búsqueda-de-productos-en-la-tienda-askomdch;buscar-producto-inexistente-\"video-juego\"",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Buscar producto inexistente \"video juego\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1281877574
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que el usuario ha iniciado sesión con username \"Vicente\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3482583754
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "está en la página \"Store\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033999684
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "ingresa \"video juego\" en la caja de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 998403705
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "hace click en el botón de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "debería ver el mensaje \"No products were found matching your selection.\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49754147
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300425165
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "búsqueda-de-productos-en-la-tienda-askomdch;buscar-producto-existente-\"blue-jeans\"",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Buscar producto existente \"blue jeans\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1290699850
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que el usuario ha iniciado sesión con username \"Vicente\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4301502744
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "está en la página \"Store\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1306899936
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "ingresa \"blue jeans\" en la caja de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044781055
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "hace click en el botón de búsqueda",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80480
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "debería ver el mensaje \"Showing all 3 results\"",
+            "match": {
+              "location": "features/step_definitions/busquedaProducto.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64498990
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 338112776
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "búsqueda-de-productos-en-la-tienda-askomdch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Búsqueda de productos en la tienda AskOmDch",
+    "tags": [],
+    "uri": "features/busquedaProducto.feature"
+  },
+  {
+    "description": "  Como usuario\n  Quiero poder iniciar sesión\n  Para acceder a mi cuenta",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-en-askomdch;login-exitoso",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1185504727
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que estoy en la página principal \"https://askomdch.com/\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 930572819
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "hago click en el botón de login",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1685262431
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "inicio sesión con username \"Vicente\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1731346891
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "debería ver en la página el texto \"My Account\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60408937
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 317077324
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-askomdch;username-invalido",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Username invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1244575699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que estoy en la página principal \"https://askomdch.com/\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1007037920
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "hago click en el botón de login",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 961289537
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "inicio sesión con username \"wrong_username\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1102939673
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "debería ver el mensaje de error \"Error: The username wrong_username is not registered on this site.\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48872547
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 345455695
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-askomdch;password-invalido",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Password invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1245474581
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que estoy en la página principal \"https://askomdch.com/\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 952523291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "hago click en el botón de login",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1016770151
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "inicio sesión con username \"Vicente\" y password \"wrong_password\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1047782613
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "debería ver el mensaje de error \"Error: The password you entered for the username Vicente is incorrect. Lost your password?\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44318209
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 319613242
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-askomdch;username-vacío",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Username vacío",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1241466381
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "que estoy en la página principal \"https://askomdch.com/\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 893930254
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "hago click en el botón de login",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 952752335
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "inicio sesión con username \"\" y password \"1234\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003489036
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "debería ver el mensaje de error \"Error: Username is required.\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46547325
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361952285
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-en-askomdch;password-vacío",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Password vacío",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1218438271
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "que estoy en la página principal \"https://askomdch.com/\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 912334676
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "hago click en el botón de login",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939379654
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "inicio sesión con username \"Vicente\" y password \"\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041174873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "debería ver el mensaje de error \"Error: The password field is empty.\"",
+            "match": {
+              "location": "features/step_definitions/login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42593433
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 298239703
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-en-askomdch",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login en AskOmDch",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
