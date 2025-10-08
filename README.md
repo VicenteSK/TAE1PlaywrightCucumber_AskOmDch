@@ -7,39 +7,38 @@ El objetivo es validar funcionalidades críticas de una aplicación web mediante
 
 ## 📁 Estructura del Proyecto
 
-TAE1PlaywrightCucumber_AskOmDch/
-│
-├── features/ # Escenarios en Gherkin y definición de pasos
-│ ├── step_definitions/ # Step Definitions (implementaciones de los pasos)
-│ │ ├── busquedaProducto.steps.js
-│ │ └── login.steps.js
-│ │
-│ ├── support/ # Hooks y configuraciones de Cucumber
-│ │ └── hooks.js
-│ │
-│ ├── busquedaProducto.feature # Escenario de búsqueda de producto
-│ └── login.feature # Escenario de login
-│
-├── pages/ # Clases del patrón Page Object Model (POM)
-│ ├── LoginPage.js
-│ └── StorePage.js
-│
-├── reports/ # Reportes generados después de ejecutar las pruebas
-│ ├── cucumber-report.html
-│ └── cucumber-report.json
-│
-├── screenshots/ # Evidencias visuales de las pruebas
-│ └── Password_invalido.png
-│
-├── test-results/ # Resultados técnicos de ejecución
-│ └── .last-run.json
-│
-├── .gitignore # Archivos y carpetas ignorados por Git
-├── cucumber.js # Configuración principal de Cucumber
-├── package.json # Dependencias y scripts del proyecto
-├── package-lock.json
-├── playwright.config.js # Configuración de Playwright
-└── report.js # Script auxiliar para generación de reportes
+**`📦 TAE1PlaywrightCucumber_AskOmDch `**
+*  **`├── 📂 features `**
+*  **`│ ├── 📂 step_definitions `**
+*  **`│ │ ├── 📄 busquedaProducto.steps.js `**
+*  **`│ │ └── 📄 login.steps.js`**
+*  **`│ │`**
+*  **`│ ├── 📂 support`**
+*  **`│ │ └── 📄 hooks.js`**
+*  **`│ │`**
+*  **`│ ├── 📄 busquedaProducto.feature`**
+*  **`│ └── 📄 login.feature`**
+*  **`│`**
+*  **`├── 📂 pages`**
+*  **`│ ├── 📄 LoginPage.js`**
+*  **`│ └── 📄 StorePage.js`**
+*  **`│`**
+*  **`├── 📂 reports`**
+*  **`│ ├── 📄 cucumber-report.html`**
+*  **`│ └── 📄 cucumber-report.json`**
+*  **`│`**
+*  **`├── 📂 screenshots`**
+*  **`│ └── 📄 Password_invalido.png`**
+*  **`│`**
+*  **`├── 📂 test-results`**
+*  **`│ └── 📄 .last-run.json`**
+*  **`│`**
+*  **`├── 📄 .gitignore`**
+*  **`├── 📄 cucumber.js`**
+*  **`├── 📄 package.json`**
+*  **`├── 📄 package-lock.json`**
+*  **`├── 📄 playwright.config.js`**
+*  **`└── 📄 report.js`**
 
 
 
