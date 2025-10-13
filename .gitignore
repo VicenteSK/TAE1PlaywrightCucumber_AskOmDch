@@ -1,2 +1,13 @@
+# Node
 node_modules/
+npm-debug.log
+package-lock.json
+
+# Reportes
+reports/
+allure-results/
 screenshots/
+test-results/
+
+# Playwright
+playwright-report/
