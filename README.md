@@ -71,7 +71,7 @@ Este comando ejecuta todos los escenarios definidos en los archivos .feature, ut
 
 Después de ejecutar las pruebas, puedes generar y visualizar un reporte interactivo en formato HTML:
 
-
+npm run test
 npm run test:report
 npm run report:open
 
@@ -97,7 +97,7 @@ Patrón Page Object Model (POM) para mejorar el mantenimiento del código.
 
 Separación clara entre escenarios (features) y lógica de automatización (steps/pages).
 
-Reporte en formato HTML sin dependencias externas (Allure eliminado).
+Reporte en formato HTML sin dependencias externas.
 
 Uso de Git y GitHub para control de versiones y portafolio profesional.
 
